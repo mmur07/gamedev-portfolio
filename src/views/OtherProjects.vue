@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Game tools</h1>
+    <h1>Game-Development tools</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some game related tools I've worked on.
+      And here are some tools for game development I've worked on.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

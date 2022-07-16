@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Stuff</h1>
+    <h1>Videogames</h1>
 
     <div style="margin-bottom: 30px;">
       The following are some videogames I've had the pleasure of participating in.

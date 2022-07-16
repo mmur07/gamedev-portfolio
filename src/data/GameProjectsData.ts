@@ -6,10 +6,15 @@ export default [
         I participated in 2 versioned copies for academic purposes of the popular apps <strong>0h n0!</strong> and <strong>FlowFree</strong>.</b>
         Both of these games were brought onto PC but using multi-platform development they still can be played on Android.</br>
         FlowFree was developed on <strong>Unity</strong> (C#) and 0hn0! on <strong>AndroidStudio (Java)</strong>.</br></br>
-        These games taught me a lot about mobile game and multi-platform development, as a good and solid architecture with many layers of abstraction was required to mantain both versions.
+        These games taught me a lot about mobile game and multi-platform development, as a good and solid architecture with many layers of abstraction was required to mantain both versions working.
     </div>
 
-        <div class="paragraph">
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/FlowFree.png" alt="PACMA Screenshot 1" />
+    <img class="pc-screenshot" src="img/projects/0hn0.png" alt="PACMA Screenshot 2" />
+    <div>
+
+    <div class="paragraph">
     <div class="notice">
         Source code and builds for both games are available on <a href="https://github.com/Adrian-de-Lucas-Gomez/VideojuegosTelefonicos" target="_blank">GitHub</a>.
     </div>
@@ -20,11 +25,13 @@ export default [
     <div class="paragraph">
         PCE or <strong>Programa de convivencia espacial</strong>, spanish for "Space coexistance program" is a thing of beauty that I am so proud of. I could write about it for hours.<br/><br/>
         In this online 2D party-game, up to 4 players compete in fast-paced rounds that evoke the discrepancies between flatmates, but in <strong>SPACE</strong>. It's kind of like Duck-Game, but in 0 gravity.<br/>
-        Players can move around jumping from various objects and platforms, and they have a deadly assortment of weapons at their disposal that they can use to defeat oposing players.<br/>
+        Players can move around by jumping from various objects and platforms, and they have a deadly assortment of weapons at their disposal that they can use to defeat oposing players.<br/>
         There is also a variety of maps, each of them including new and different platforms and hazards.<br/><br/>
 
         This game was written on C++ using SDL2 and Box2D.<br/>
-        The purpose of this game was purely educational to familiarize us into the workflow of game development and to gain proficiency with C++.
+        The purpose of this game was purely educational to familiarize us into the workflow of game development and to gain proficiency with C++.<br/><br/>
+
+        Overall, it's a game I'm really proud of, and if we had dedicated a couple more weeks into it, it could be 10 times better.
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/Anq521WAuG4" frameborder="0" allowfullscreen></iframe>
@@ -58,67 +65,49 @@ export default [
     </div>
 
     `, "#383838"),
-    new ProjectData("project-4", "PACMA", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "PACMA", "img/projects/PACMATitle.png", `
     <div class="paragraph">
     <strong>Programa Animalista de Chillar Muy Alto</strong>, spanish for Animalistic Program of Screeching Very Loud (we kid of have a thing for dumb long names)
-    is a submission for the Jam-On Game-Jam that took place in 2022. This game was awarded the 2nd best game of the edition.</br>
-    In this game, you play as a cat that is about to give birth, and has jumped into a taxi. For some reason, the driver doesn't know where the hospital is.
-    Looking out the windows and reading the road signs, the player can figure out what direction to follow in order to reach the hospital.
-    To communicate what direction to follow to the driver, the player will have to talk to their mic (right, left, straight on).
-    Also, the screen will blacken increasingly, so the player will have to literally <strong>scream their lungs out</strong> to clear out the screen.</br></br>
+    is a submission for the Jam-On Game-Jam that took place in 2021. This game was developed on Unity and was ranked the 3rd best game of the edition.</br></br>
+    In this game, you play as a cat that is about to give birth and has jumped into a taxi. For <em>some reason</em>, the driver doesn't know where the hospital is.
+    By looking out the windows and reading the road signs, the player can figure out what direction to follow in order to reach the hospital.
+    To communicate what direction to follow to the driver, the player has to talk to their mic (right, left, straight on...).
+    In addition, the screen will blacken increasingly, so the player will have to literally <strong>scream their lungs out</strong> to clear out the screen.</br></br>
 
-    Personally, this is my favourite game I've created with friends. It's super fun to play and super fun to watch other people play.</br>
+    Personally, this is my favourite game I've created with friends. It's super fun to play 10 times better to watch other people play.</br>
     I'll never forget how fun it was to watch the rest of the game-jam participants play this game.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
     
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/PACMA1.png" alt="PACMA Screenshot 1" />
+    <img class="pc-screenshot" src="img/projects/PACMA2.png" alt="PACMA Screenshot 2" />
+    <div>
+
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        <div class="notice">
+        Game available for download for Windows platforms on <a href="https://tai1games.itch.io/pacma" target="_blank">itch.io</a>.
+        </div>
+    </div>
+
+    `, "#735350", false, true),
+    new ProjectData("project-5", "Primates Perfectos", "img/projects/PP.png", `
+    <div class="paragraph">
+        <strong>Primates Perfectos</strong>, spanish for <emph>Perfect Primates</emph> is a submission for the Jam-On Game-Jam that took place in 2021. 
+        This game was developed on Unity and was ranked <strong>2nd best game of the edition</strong>.</br></br>
+        In this game, the player tries to scam people by selling ugly monkey NFTs. Players are able to customize their monkeys by adding accesories like in the old browser games.
+        Each accesory gives points to certain themes (beach, party, cozy...) The player is able to deduce which theme is currently popular by browing a live Twitter timeline in which users
+        talk about the things they like, hate, etc. If the NFT you create has points into popular themes, you will gain more money that can be used to unlock new accesories.</br></br>
+        This was a really fun project. Selecting the accesories and writing dumb tweets was a blast and even though it's not really intuitive, I'm really proud of what we created.
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/PPGameplay.png" alt="Drawing Overload Screenshot" />
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
+        Game available for download for Windows platforms on <a href="https://tai1games.itch.io/primatesperfectos" target="_blank">itch.io</a>.
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+    </div>`, "#004901")
 ];

@@ -8,7 +8,7 @@
       </div>
 
       <div style="margin-top: 20px;">
-        I've worked on several projects, including <router-link to="/game-projects">videogames</router-link> and <router-link to="/other-projects"> much more</router-link>.
+        I've worked on several projects, including <router-link to="/game-projects">videogames</router-link> and <router-link to="/other-projects"> game-development tools</router-link>.
         With a group of friends, I've worked on multiple projects, ranging from silly game-jam submissions to custom 3D Game engines built from the ground up.
       </div>
 
@@ -16,7 +16,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/mmur.png" alt="Avatar of John" /> 
     </div>
 
     <div style="clear:both"></div>
