@@ -20,7 +20,7 @@ import Footer from './components/Footer.vue';
 import Helpers from './helpers';
 
 export default Vue.extend({
-  name: 'App',
+  name: 'MiguelMur',
   components: {
     Header, Footer
   }
