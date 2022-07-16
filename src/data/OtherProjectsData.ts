@@ -1,106 +1,59 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
+    new ProjectData("project-6", "PTSD-Engine", "img/projects/project-1-icon.jpg", 
+    `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
-            </div>
-            <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
+     <strong>PTSD-Engine</strong> is most likely the biggest project I've worked on. It's a <strong>custom 3D engine built from the ground up available on Windows and Linux.</strong><br/>
+     It's written on C++ and LUA. Users are able to write scripts on LUA in which they are able to customize their games with the assets they desire.<br/><br/>
 
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
-            </ul>
-        </div>
+     2 basic games were created for testing purposes using this tool: <strong>Ta1Fighter</strong> and <strong>Glock the Clock</strong>. Even though these games are not much to write home about, anyone who has
+     worked on something similar will appreciate the work behind them.
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/5RQtIul6HrQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/Vx3Ug5Hxe9M" frameborder="0" allowfullscreen></iframe>
+    </div>
 
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
-    `, "#c10606", false, true),
-    new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
     <div class="paragraph">
-                <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
-            </div>
-
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Some stuff</li>
-              <li>Some great stuff</li>
-              <li>More awesome stuff</li>
-              <li>And then some</li>
-              </ul>
-          </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                You can download and try the app for free or purchase it directly from <a href="http://www.somewbsite.com/" target="_blank">Some website</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
-    <div class="paragraph">
-                <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-            </div>
-
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=someapp" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
-
-          <div class="paragraph">
-          Main features :
-          <ul>
-          <li>Some stuff</li>
-          <li>Some great stuff</li>
-          <li>More awesome stuff</li>
-          <li>And then some</li>
-          </ul>
-      </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`),
-    new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
-     <div class="paragraph">
-                <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
-            </div>
-
-            <div class="paragraph">
-        Main features :
+        The main technologies used in this project were :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Ogre3D</li>
+        <li>Bullet</li>
+        <li>FMOD-API</li>
         </ul>
     </div>
 
+    <div class="paragraph">
+    <div class="notice">
+        Source code for PTSD-Engine available on <a href="https://github.com/PTSD-3D/PTSD-Engine" target="_blank">GitHub</a>.<br/>  
+        Build and source code for Glock The Clock available on <a href="https://github.com/PTSD-3D/Glock-The-Clock" target="_blank">GitHub</a>.<br/>
+        Build and source code for Tai-Fighter available on <a href="https://github.com/PTSD-3D/Tai-Fighter" target="_blank">GitHub</a>.<br/>
+    </div>
+    </div>
+    `, "#c10606", false, true),
+    new ProjectData("project-7", "MMOTFG", "img/projects/MMOTFG.png", `
+    <div class="paragraph">
+                <strong>Massively Multiplayer Online Telegram Fantasy Game</strong> is a framework I worked on that is used to create multiplayer conversational
+                rpg adventures that are played via <strong>Telegram bots</strong>.</b>
+                The games that can be developed using this framework resemble classic rpgs such as Zork, in which the user had to type what they wanted
+                to do or where they wanted to go (go north, use key, drink potion...)</br>
+                It was developed using <strong>.NET</strong> (C#). Player progress is stored in a <strong>Firebase</strong> database, and the games can be deployed using <strong>Docker and Azure</strong>. </br></br>
+                It's a very complete project I'm very proud of. 
+            </div>
+
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="img/projects/HelpCommand.png" alt="Help command response" />
+                <img class="pc-screenshot" src="img/projects/BatallaItem.png" alt="Using a health potion" />
+                <img class="pc-screenshot" src="img/projects/Mamporrazo1.png" alt="Custom battles" /> 
+            </div>
+            
             <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>`),
+            <div class="notice">
+                MMOTFG is available for download on <a href="https://github.com/El-AMPA/MMOTFG" target="_blank">GitHub</a>.<br/>  
+            </div>
+            </div>
+            `,"#1ca1e2")
 ];

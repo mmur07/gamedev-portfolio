@@ -1,40 +1,21 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "PTSD-Engine", "img/projects/project-1-icon.jpg", 
-    `
+    new ProjectData("project-1", "Mobile games", "img/projects/MobileGames.png", `
     <div class="paragraph">
-     <strong>PTSD-Engine</strong> is most likely the biggest project I've worked on. It's a <strong>custom 3D engine built from the ground up available on Windows and Linux.</strong>.<br/>
-     It's written on C++ and LUA. Users are able to write scripts on LUA in which they are able to customize their games with the assets they desire.<br/><br/>
-
-     2 basic games were created for testing purposes using this tool: <strong>Ta1Fighter</strong> and <strong>Glock the Clock</strong>. These games are not much to write home about, but for anyone who has
-     worked on something similar, they're really cool.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/5RQtIul6HrQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/Vx3Ug5Hxe9M" frameborder="0" allowfullscreen></iframe>
+        I participated in 2 versioned copies for academic purposes of the popular apps <strong>0h n0!</strong> and <strong>FlowFree</strong>.</b>
+        Both of these games were brought onto PC but using multi-platform development they still can be played on Android.</br>
+        FlowFree was developed on <strong>Unity</strong> (C#) and 0hn0! on <strong>AndroidStudio (Java)</strong>.</br></br>
+        These games taught me a lot about mobile game and multi-platform development, as a good and solid architecture with many layers of abstraction was required to mantain both versions.
     </div>
 
-    <div class="paragraph">
-        The main technologies used in this project were :
-        <ul>
-        <li>Ogre3D</li>
-        <li>Bullet</li>
-        <li>FMOD-API</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
+        <div class="paragraph">
     <div class="notice">
-        Source code for PTSD-Engine available on <a href="https://github.com/PTSD-3D/PTSD-Engine" target="_blank">GitHub</a>.<br/>  
-        Build and source code for Glock The Clock available on <a href="https://github.com/PTSD-3D/Glock-The-Clock" target="_blank">GitHub</a>.<br/>
-        Build and source code for Tai-Fighter available on <a href="https://github.com/PTSD-3D/Tai-Fighter" target="_blank">GitHub</a>.<br/>
+        Source code and builds for both games are available on <a href="https://github.com/Adrian-de-Lucas-Gomez/VideojuegosTelefonicos" target="_blank">GitHub</a>.
     </div>
     </div>
+    `, "#383838", true, false),
 
-    `, "#23bd69", true),
     new ProjectData("project-2", "PCE", "img/projects/project-2-icon.png", `
     <div class="paragraph">
         PCE or <strong>Programa de convivencia espacial</strong>, spanish for "Space coexistance program" is a thing of beauty that I am so proud of. I could write about it for hours.<br/><br/>
@@ -77,9 +58,17 @@ export default [
     </div>
 
     `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "PACMA", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
+    <strong>Programa Animalista de Chillar Muy Alto</strong>, spanish for Animalistic Program of Screeching Very Loud (we kid of have a thing for dumb long names)
+    is a submission for the Jam-On Game-Jam that took place in 2022. This game was awarded the 2nd best game of the edition.</br>
+    In this game, you play as a cat that is about to give birth, and has jumped into a taxi. For some reason, the driver doesn't know where the hospital is.
+    Looking out the windows and reading the road signs, the player can figure out what direction to follow in order to reach the hospital.
+    To communicate what direction to follow to the driver, the player will have to talk to their mic (right, left, straight on).
+    Also, the screen will blacken increasingly, so the player will have to literally <strong>scream their lungs out</strong> to clear out the screen.</br></br>
+
+    Personally, this is my favourite game I've created with friends. It's super fun to play and super fun to watch other people play.</br>
+    I'll never forget how fun it was to watch the rest of the game-jam participants play this game.
     <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
     </div>
     
