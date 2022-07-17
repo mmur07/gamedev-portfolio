@@ -3,24 +3,27 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Miguel Mur</strong>, a recent Game Dev graduate from Zaragoza, Spain.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />I've been creating games and game-dev tools for over 4 years with various technologies and coding languages.
+      <br />I'm especially comfortable with <strong>Unity, C++ and C#</strong>, but I have experience with quite a lot of different technologies.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />With a group of friends from college, I've been a part of <a href="https://tai1games.itch.io/" target="_blank">Tai1Games</a>, and we've participated in a couple game-jams and developed some fun games.
+      <br />One of my strongest skills is <strong>teamwork and planning</strong>, as I've used agile methodologies for all of the major projects I've participated in. I'm really comfortable
+      <br />with <strong>Scrum and Kanban</strong>.
+      <br />
+      <br />Right now I'm looking for a place to start my carreer in the games industry.
+      <br />
+      <br />Besides game dev, I'm also interested about videogames <it>(duh)</it>, manga, dogs and cooking.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/CV-EN-MiguelMur.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF ᴇɴ</a>
+        <a class="download-link" href="d/CV-EN-MiguelMur.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar como PDF ᴇs</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/mmur.png" alt="Photo of Myself :)" />
     </div>
 
     <div style="clear:both"></div>
@@ -52,54 +55,70 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Ample knowledge</h3>
+        <div class="skill">C#</div> 
+        <div class="skill">C++</div> 
+        <div class="skill">Unity</div>
+        <div class="skill">Agile</div>
+        <div class="skill">Git</div>
+        <div class="skill">SDL2</div>
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Comfortable</h3>
+        <div class="skill">C</div> 
+        <div class="skill">Java</div> 
+        <div class="skill">Python</div> 
+        <div class="skill">AndroidStudio</div> 
+        <div class="skill">FMOD</div> 
+        <div class="skill">Blender</div> 
+        <div class="skill">Telegram development</div>
+        <div class="skill">Multi-platform development</div> 
+      </div>
+
+      <div class="skill-set">
+        <h3>Familiar</h3>
+        <div class="skill">LUA</div> 
+        <div class="skill">JavaScript</div> 
+        <div class="skill">Firebase</div> 
+        <div class="skill">Docker</div> 
+        <div class="skill">NumPy</div> 
+        <div class="skill">Reaper</div> 
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Universidad Complutense de Madrid (2018/19 - 2021/22)</h3>
+      <h4>Game development</h4>
+      <div>Bachelor's degree in computer science specialized on game development</div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>English</h3>
+      <div><strong>B2 Cambridge certified.</strong></div>
+      <div>I've also participated in language immersion programs in Canada (2015) and the Netherlands (2016)</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>Spanish</h3>
+      <div>Native</div>
 
+      <h3>Japanese</h3>
+      <div>NOKEN 5 - Certified</div>
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Video games</h3>
+        <div>I love everything from FromSoftware, Undertale, TBOI, Warframe, FFIX... I also ruined my teenage years on World of Warcraft and Dota2.</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Manga</h3>
+        <div>I adore Berserk, Oyasumi Punpun and all the work of Junji Ito.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
+        <h3>I 💛 My Dog</h3>
+        <div>His name's Gauss and I love him very very much :)</div>
+        <div>
+          <img src="img/Gaussito.jpg" alt="Photo of my precious dog" width=300px style="margin-left: 5%; padding-top: 15px;"/>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -112,7 +131,7 @@ import SkillRate from "@/components/SkillRate.vue";
 export default Vue.extend({
   name: "Resume",
   components: {
-    SkillRate,
+
   },
 });
 </script>
@@ -186,6 +205,13 @@ h4 {
   .skill-set {
     float: left;
     padding-right: 60px; 
+  }
+
+  .skill{
+    border: 1px solid white;
+    padding: 3px;
+    float:inherit;
+    margin:  5px;
   }
 }
 </style>

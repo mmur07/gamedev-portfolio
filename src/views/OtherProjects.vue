@@ -3,7 +3,7 @@
     <h1>Game-Development tools</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some tools for game development I've worked on.
+      Here are some tools for game development I've worked on.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
